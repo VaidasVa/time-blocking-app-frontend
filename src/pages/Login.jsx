@@ -2,7 +2,7 @@ import React from 'react';
 
 const Login = () => {
     const handleLogin = () => {
-        window.location.href = 'http://localhost:8080/tasks'; // Redirect to backend
+        window.location.href = 'http://localhost:5173/tasks'; // Redirect to backend
     };
 
     return (
