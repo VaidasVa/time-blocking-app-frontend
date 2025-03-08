@@ -1,13 +1,13 @@
 import './App.css'
+import Main from "./pages/Main.jsx";
+import Login from "./pages/Login.jsx";
 
 function App() {
 
   return (
     <>
-      <div>
-          hello
-      </div>
-
+      {/*<Main/>*/}
+        <Login/>
     </>
   )
 }
